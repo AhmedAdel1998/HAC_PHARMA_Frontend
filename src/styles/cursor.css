@@ -1,0 +1,55 @@
+
+/* Custom Cursor */
+body {
+    cursor: default; /* Fallback */
+}
+
+/* Custom Cursor Dot */
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--hac-blue);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+    transition: width 0.2s, height 0.2s, background-color 0.2s;
+}
+
+/* Custom Cursor Outline */
+.cursor-outline {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--hac-blue);
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 9998;
+    transform: translate(-50%, -50%);
+    transition: left 0.1s ease-out, top 0.1s ease-out, width 0.2s, height 0.2s, border-color 0.2s;
+}
+
+/* Hover States */
+body.hovering .cursor-dot {
+    width: 12px;
+    height: 12px;
+    background-color: var(--hac-green);
+}
+
+body.hovering .cursor-outline {
+    width: 60px;
+    height: 60px;
+    border-color: var(--hac-green);
+    background-color: rgba(46, 139, 87, 0.1);
+}
+
+@media (max-width: 1024px) {
+    .cursor-dot, .cursor-outline {
+        display: none;
+    }
+}

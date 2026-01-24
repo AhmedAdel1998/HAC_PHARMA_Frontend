@@ -1,0 +1,908 @@
+{
+    "common": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "products": "Products",
+        "team": "Team",
+        "partners": "Partners",
+        "careers": "Careers",
+        "news": "News",
+        "contact": "Contact Us",
+        "faq": "FAQ",
+        "privacy": "Privacy Policy",
+        "events": "Events",
+        "search": "Search",
+        "readMore": "Read More",
+        "viewAll": "View All",
+        "submit": "Submit",
+        "send": "Send",
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "success": "Success!",
+        "download": "Download",
+        "learnMore": "Learn More",
+        "viewDetails": "View Details",
+        "getStarted": "Get Started",
+        "subscribe": "Subscribe",
+        "close": "Close",
+        "menu": "Menu",
+        "switchLanguage": "العربية",
+        "retry": "Try Again"
+    },
+    "header": {
+        "innovatingHealthcare": "Innovating Healthcare",
+        "getInTouch": "Get in Touch",
+        "aria": {
+            "openMenu": "Open menu",
+            "closeMenu": "Close menu",
+            "switchLanguage": "Switch language",
+            "switchLight": "Switch to light mode",
+            "switchDark": "Switch to dark mode"
+        }
+    },
+    "hero": {
+        "badge": "Innovating Healthcare",
+        "subtitle": "Bridging global pharmaceutical innovation with local healthcare needs. Access to essential medication is not a privilege — it's a human right.",
+        "typingWords": {
+            "community": "Community",
+            "future": "Future",
+            "access": "Access",
+            "solutions": "Solutions"
+        },
+        "exploreServices": "Explore Services",
+        "getInTouch": "Get in Touch",
+        "trustedPartner": "Trusted Partner",
+        "sfdaCompliant": "SFDA Compliant & GCC Licensed",
+        "gccMarkets": "GCC Markets",
+        "globalNetwork": "Global Network"
+    },
+    "stats": {
+        "partners": "Partners",
+        "products": "Products",
+        "countries": "Countries",
+        "years": "Years"
+    },
+    "home_stats": [
+        {
+            "value": "50+",
+            "label": "Partners"
+        },
+        {
+            "value": "200+",
+            "label": "Products"
+        },
+        {
+            "value": "20+",
+            "label": "Countries"
+        },
+        {
+            "value": "15+",
+            "label": "Years of Excellence"
+        }
+    ],
+    "about": {
+        "sectionLabel": "About Us",
+        "title": "Bridging Healthcare Gaps",
+        "globalVision": "Global Vision, Local Impact",
+        "description1": "Foundation Health Corporation established its headquarters in Riyadh, marking the genesis of its venture in the region. This strategic move allows the company to efficiently manage and oversee its virtual offices in key markets including the USA, France, Egypt, India, and China.",
+        "description2": "By centralizing operations in KSA, the company aims to foster better coordination and streamline its services across all locations, enhancing communication and synergy among its international teams.",
+        "philosophyTitle": "HAC Pharma Philosophy",
+        "philosophyDescription": "At HAC Pharma, we believe access to essential medication is not a privilege — it's a human right. Our philosophy is rooted in compassion, innovation, and responsiveness. We are committed to:",
+        "bridgingGaps": "Bridging gaps in medication availability",
+        "enhancingQuality": "Enhancing quality of life",
+        "empoweringHealthcare": "Empowering healthcare systems",
+        "collaboratingGlobally": "Collaborating globally, acting locally",
+        "globalPresence": "Global Presence",
+        "headquartersDescription": "Headquartered in Riyadh with virtual offices across 5 continents",
+        "countries": {
+            "saudiArabia": "Saudi Arabia",
+            "usa": "USA",
+            "france": "France",
+            "egypt": "Egypt",
+            "india": "India",
+            "china": "China"
+        },
+        "locations": {
+            "saudi": "🇸🇦 Saudi Arabia (HQ)",
+            "usa": "🇺🇸 USA",
+            "france": "🇫🇷 France",
+            "egypt": "🇪🇬 Egypt",
+            "india": "🇮🇳 India",
+            "china": "🇨🇳 China"
+        },
+        "missionTitle": "Mission Statement",
+        "missionText": "To deliver life-saving and life-enhancing pharmaceutical solutions by bridging access gaps, accelerating product availability, and empowering healthcare systems through strategic innovation and regulatory excellence.",
+        "visionTitle": "Vision Statement",
+        "visionText": "A region where every patient receives timely, reliable, and effective treatment, powered by a forward-thinking pharmaceutical network that anticipates needs, acts with compassion, and leads with integrity."
+    },
+    "services": {
+        "title": "Our Services",
+        "pageTitle": "Comprehensive Pharmaceutical Solutions",
+        "pageSubtitle": "End-to-end services across the healthcare value chain",
+        "subtitle": "Comprehensive pharmaceutical services across the healthcare value chain",
+        "list": [
+            {
+                "icon": "⚖️",
+                "title": "Regulatory Affairs",
+                "description": "Expert guidance through SFDA registration and compliance processes for rapid market entry."
+            },
+            {
+                "icon": "🚚",
+                "title": "Logistics & Distribution",
+                "description": "Advanced cold-chain storage and distribution network ensuring product integrity."
+            },
+            {
+                "icon": "🌍",
+                "title": "Market Access",
+                "description": "Strategic pricing, reimbursement, and tender management for maximum market penetration."
+            },
+            {
+                "icon": "🔬",
+                "title": "Medical Affairs",
+                "description": "Scientific engagement and education for healthcare professionals and key opinion leaders."
+            }
+        ]
+    },
+    "roadmap": {
+        "title": "Strategic Roadmap",
+        "label": "Our Journey",
+        "phases": [
+            {
+                "icon": "🏢",
+                "title": "2024: Foundation",
+                "items": [
+                    "Establishment of HAC Pharma HQ in Riyadh",
+                    "Acquisition of initial SFDA licenses",
+                    "Core team recruitment and onboarding"
+                ]
+            },
+            {
+                "icon": "🚀",
+                "title": "2025: Market Entry",
+                "items": [
+                    "Launch of first cardiovascular product line",
+                    "Strategic partnerships with 3 global manufacturers",
+                    "Expansion of distribution network to Jeddah and Dammam"
+                ]
+            },
+            {
+                "icon": "📈",
+                "title": "2026: Expansion",
+                "items": [
+                    "Entry into Oncology and Neurology therapeutic areas",
+                    "Opening of regional offices in GCC (Dubai, Kuwait)",
+                    "Digital transformation of supply chain operations"
+                ]
+            },
+            {
+                "icon": "🔬",
+                "title": "2027: Innovation",
+                "items": [
+                    "Establishment of local R&D center",
+                    "Launch of proprietary digital health solutions",
+                    "Achieving 10% market share in key segments"
+                ]
+            }
+        ]
+    },
+    "products": {
+        "title": "Product Portfolio",
+        "hero": {
+            "subtitle": "Explore our comprehensive range of high-quality pharmaceutical products."
+        },
+        "searchPlaceholder": "Search products...",
+        "categories": {
+            "all": "All Categories",
+            "cardio": "Cardiology",
+            "onco": "Oncology",
+            "neuro": "Neurology",
+            "diabetes": "Diabetes",
+            "derma": "Dermatology"
+        },
+        "list": [
+            {
+                "id": 1,
+                "icon": "💊",
+                "title": "CardioPlus",
+                "category": "products.categories.cardio",
+                "description": "Advanced cardiovascular support for hypertension management."
+            },
+            {
+                "id": 2,
+                "icon": "🛡️",
+                "title": "OncoShield",
+                "category": "products.categories.onco",
+                "description": "Targeted therapy solution for solid tumor treatment."
+            },
+            {
+                "id": 3,
+                "icon": "🧠",
+                "title": "NeuroCalm",
+                "category": "products.categories.neuro",
+                "description": "Neurological support for anxiety and stress disorders."
+            },
+            {
+                "id": 4,
+                "icon": "🩺",
+                "title": "DiabeCare",
+                "category": "products.categories.diabetes",
+                "description": "Comprehensive glucose management system."
+            },
+            {
+                "id": 5,
+                "icon": "✨",
+                "title": "DermaGlow",
+                "category": "products.categories.derma",
+                "description": "Clinical grade dermatology treatment for eczema."
+            },
+            {
+                "id": 6,
+                "icon": "❤️",
+                "title": "CardioLife",
+                "category": "products.categories.cardio",
+                "description": "Essential heart health maintenance medication."
+            },
+            {
+                "id": 7,
+                "icon": "🧘",
+                "title": "NeuroFocus",
+                "category": "products.categories.neuro",
+                "description": "Cognitive enhancement and focus support."
+            },
+            {
+                "id": 8,
+                "icon": "🧴",
+                "title": "DermaSoft",
+                "category": "products.categories.derma",
+                "description": "Gentle daily care for sensitive skin conditions."
+            }
+        ],
+        "noProducts": "No products found",
+        "viewAll": "View All Products",
+        "inStock": "In Stock",
+        "limitedStock": "Limited Stock",
+        "outOfStock": "Out of Stock",
+        "view": {
+            "grid": "Grid View",
+            "list": "List View"
+        }
+    },
+    "productDetail": {
+        "back": "Back to Products",
+        "about": "About this Product",
+        "indications": "Indications",
+        "dosage": "Dosage & Administration",
+        "info": {
+            "title": "Product Information",
+            "category": "Category",
+            "availability": "Availability",
+            "available": "Available Now"
+        },
+        "contact": {
+            "title": "Need more information?",
+            "text": "Contact our medical affairs team for detailed clinical information.",
+            "button": "Contact Us"
+        },
+        "p1": {
+            "fullDesc": "CardioPlus is a state-of-the-art antihypertensive medication designed to provide 24-hour blood pressure control with a single daily dose. Its unique formulation ensures steady drug release, minimizing side effects and maximizing patient compliance.",
+            "indications": [
+                "Essential hypertension",
+                "Stable angina pectoris",
+                "Chronic heart failure (as adjunctive therapy)"
+            ],
+            "dosage": "One tablet daily, preferably in the morning. Can be taken with or without food."
+        },
+        "p2": {
+            "fullDesc": "OncoShield is a targeted therapy designed to treat specific solid tumors by inhibiting key pathways involved in cancer cell proliferation and survival. It represents a significant advancement in precision oncology.",
+            "indications": [
+                "Advanced renal cell carcinoma",
+                "Unresectable hepatocellular carcinoma",
+                "Metastatic thyroid cancer"
+            ],
+            "dosage": "Administered orally twice daily. Dosage adjustment may be required based on patient tolerance."
+        },
+        "p3": {
+            "fullDesc": "NeuroCalm provides relief for generalized anxiety disorder and panic disorders. It works by balancing neurotransmitter levels in the brain to promote a sense of calm and well-being without significant sedation.",
+            "indications": [
+                "Generalized Anxiety Disorder (GAD)",
+                "Panic Disorder",
+                "Social Anxiety Disorder"
+            ],
+            "dosage": "Starting dose is 10mg once daily. May be increased to 20mg based on clinical response."
+        },
+        "p4": {
+            "fullDesc": "DiabeCare offers a comprehensive approach to type 2 diabetes management. It improves insulin sensitivity and reduces glucose production by the liver, helping patients achieve their HbA1c targets.",
+            "indications": [
+                "Type 2 Diabetes Mellitus",
+                "Pre-diabetes risk reduction",
+                "Polycystic Ovary Syndrome (PCOS)"
+            ],
+            "dosage": "Taken with meals to reduce gastrointestinal side effects. Dosage is individualized."
+        },
+        "p5": {
+            "fullDesc": "DermaGlow is a topical treatment for mild to moderate eczema. Its non-steroidal formula effectively reduces inflammation and itching while restoring the skin's natural barrier.",
+            "indications": [
+                "Atopic dermatitis",
+                "Contact dermatitis",
+                "Chronic hand eczema"
+            ],
+            "dosage": "Apply a thin layer to affected areas twice daily."
+        },
+        "p6": {
+            "fullDesc": "CardioMax is a high-potency statin used to lower cholesterol levels and reduce the risk of cardiovascular events. It is indicated for patients with hyperlipidemia and those at high risk of heart disease.",
+            "indications": [
+                "Hyperlipidemia",
+                "Prevention of cardiovascular events",
+                "Atherosclerosis"
+            ],
+            "dosage": "10-80mg once daily in the evening."
+        },
+        "p7": {
+            "fullDesc": "OncoDefend is an immunotherapy agent that boosts the body's immune system to fight cancer cells. It is used in the treatment of various advanced malignancies.",
+            "indications": [
+                "Metastatic melanoma",
+                "Non-small cell lung cancer",
+                "Hodgkin lymphoma"
+            ],
+            "dosage": "Intravenous infusion every 3 weeks."
+        },
+        "p8": {
+            "fullDesc": "NeuroFlex is indicated for the treatment of neuropathic pain associated with diabetic peripheral neuropathy and postherpetic neuralgia. It also aids in the management of fibromyalgia.",
+            "indications": [
+                "Neuropathic pain",
+                "Fibromyalgia",
+                "Epilepsy (adjunctive therapy)"
+            ],
+            "dosage": "75-150mg twice daily."
+        }
+    },
+    "foundation": {
+        "title": "Our Foundation",
+        "subtitle": "Trusted by Leading Institutions",
+        "description": "We are proud to be recognized and certified by Saudi Arabia's most respected regulatory and business authorities"
+    },
+    "customers": {
+        "label": "Who We Serve",
+        "title": "Our Valued Customers",
+        "subtitle": "Trusted by leading healthcare institutions across Saudi Arabia"
+    },
+    "contact": {
+        "title": "Ready to Partner?",
+        "subtitle": "Let's collaborate to improve healthcare access and quality in the region.",
+        "location": "Location",
+        "email": "Email",
+        "riyadh": "Riyadh, Saudi Arabia",
+        "namePlaceholder": "Name",
+        "emailPlaceholder": "Email",
+        "messagePlaceholder": "Message",
+        "sendMessage": "Send Message",
+        "messageSent": "Message sent successfully!",
+        "messageError": "Failed to send message. Please try again.",
+        "subject": "Subject",
+        "sending": "Sending...",
+        "sendAnother": "Send another message",
+        "topics": {
+            "select": "Select a topic",
+            "partnership": "Partnership Inquiry",
+            "products": "Product Information",
+            "careers": "Career Opportunities",
+            "general": "General Inquiry"
+        },
+        "phoneLabel": "Phone",
+        "businessHoursLabel": "Business Hours",
+        "businessHoursValue": "Sun - Thu: 8:00 AM - 5:00 PM"
+    },
+    "footer": {
+        "company": "Company",
+        "quickLinks": "Quick Links",
+        "servicesTitle": "Services",
+        "description": "Leading the way in pharmaceutical excellence. We are committed to delivering high-quality healthcare solutions across the globe.",
+        "serviceLinks": {
+            "distribution": "Distribution",
+            "regulatory": "Regulatory Affairs",
+            "business": "Business Development",
+            "partnerships": "Strategic Partnerships"
+        },
+        "contactInfo": "Contact Info",
+        "followUs": "Follow Us",
+        "newsletter": "Newsletter",
+        "newsletterPlaceholder": "Enter your email",
+        "newsletterButton": "Subscribe",
+        "rights": "All rights reserved.",
+        "termsOfService": "Terms of Service"
+    },
+    "blog": {
+        "label": "Insights",
+        "hero": {
+            "title": "Blog & Insights",
+            "subtitle": "Stay updated with the latest news and insights from the pharmaceutical industry"
+        },
+        "featured": "Featured",
+        "recentPosts": "Recent Articles",
+        "readTime": "min read",
+        "sharePost": "Share this post",
+        "categories": {
+            "all": "All Categories",
+            "industry": "Industry Trends",
+            "regulations": "Regulations",
+            "research": "R&D",
+            "company": "Company News"
+        },
+        "list": [
+            {
+                "id": 1,
+                "title": "Navigating New SFDA Regulations",
+                "excerpt": "A comprehensive guide to the latest regulatory changes in the Saudi pharmaceutical market.",
+                "category": "blog.categories.regulations",
+                "date": "2026-01-15",
+                "readTime": 5,
+                "image": "assets/blog/featured.jpg"
+            },
+            {
+                "id": 2,
+                "title": "The Future of Biotech in KSA",
+                "excerpt": "Exploring the rapid growth of biotechnology and life sciences in the Kingdom.",
+                "category": "blog.categories.industry",
+                "date": "2026-01-10",
+                "readTime": 4,
+                "image": ""
+            },
+            {
+                "id": 3,
+                "title": "HAC Pharma Expands Logistics Network",
+                "excerpt": "We are proud to announce the opening of our new state-of-the-art distribution center.",
+                "category": "blog.categories.company",
+                "date": "2026-01-05",
+                "readTime": 3,
+                "image": ""
+            },
+            {
+                "id": 4,
+                "title": "Global Pharma Trends 2026",
+                "excerpt": "Key insights into the evolving landscape of global pharmaceutical markets.",
+                "category": "blog.categories.research",
+                "date": "2025-12-28",
+                "readTime": 6,
+                "image": ""
+            },
+            {
+                "id": 5,
+                "title": "Partnership Announcement",
+                "excerpt": "HAC Pharma partners with leading European biotech firm to bring novel therapies to GCC.",
+                "category": "blog.categories.company",
+                "date": "2025-12-20",
+                "readTime": 7,
+                "image": ""
+            }
+        ]
+    },
+    "news": {
+        "label": "Newsroom",
+        "hero": {
+            "title": "Latest News",
+            "subtitle": "Updates, announcements, and press releases from HAC Pharma"
+        },
+        "categories": {
+            "company": "Company",
+            "product": "Product Launch",
+            "csr": "CSR",
+            "financial": "Financial",
+            "events": "Events",
+            "operations": "Operations"
+        },
+        "list": [
+            {
+                "id": 1,
+                "title": "Strategic Partnership with EuroPharma",
+                "excerpt": "HAC Pharma signs exclusive distribution agreement with EuroPharma for GCC region.",
+                "date": "2026-01-15",
+                "category": "news.categories.company",
+                "image": ""
+            },
+            {
+                "id": 2,
+                "title": "SFDA Approval for CardioPlus",
+                "excerpt": "CardioPlus receives final regulatory approval for distribution in Saudi Arabia.",
+                "date": "2026-01-10",
+                "category": "news.categories.product",
+                "image": ""
+            },
+            {
+                "id": 3,
+                "title": "Green Initiative Launch",
+                "excerpt": "HAC Pharma commits to carbon-neutral logistics by 2030.",
+                "date": "2026-01-05",
+                "category": "news.categories.csr",
+                "image": ""
+            },
+            {
+                "id": 4,
+                "title": "Q4 Financial Results",
+                "excerpt": "Strong growth reported in KSA market share for Q4 2025.",
+                "date": "2025-12-28",
+                "category": "news.categories.financial",
+                "image": ""
+            },
+            {
+                "id": 5,
+                "title": "Riyadh Global Health Summit",
+                "excerpt": "HAC Pharma to participate as Gold Sponsor in upcoming health summit.",
+                "date": "2025-12-15",
+                "category": "news.categories.events",
+                "image": ""
+            },
+            {
+                "id": 6,
+                "title": "New Logistics Center Opening",
+                "excerpt": "State-of-the-art cold chain facility opens in Riyadh Industrial City.",
+                "date": "2025-12-01",
+                "category": "news.categories.operations",
+                "image": ""
+            }
+        ],
+        "newsletter": {
+            "title": "Subscribe to our Newsletter",
+            "subtitle": "Get the latest updates delivered directly to your inbox.",
+            "placeholder": "Enter your email address",
+            "button": "Subscribe Now"
+        }
+    },
+    "testimonials": {
+        "label": "Testimonials",
+        "hero": {
+            "title": "What Our Partners Say",
+            "subtitle": "Hear from the healthcare institutions and pharmaceutical companies we work with"
+        },
+        "list": [
+            {
+                "id": 1,
+                "quote": "HAC Pharma has been an invaluable partner in navigating the complex regulatory landscape of Saudi Arabia. Their expertise is unmatched.",
+                "author": "Dr. Sarah Al-Amri",
+                "role": "Director of Pharmacy",
+                "company": "King Fahad Medical City"
+            },
+            {
+                "id": 2,
+                "quote": "The reliability of their cold-chain logistics ensures our sensitive products reach patients in perfect condition, every time.",
+                "author": "James Wilson",
+                "role": "VP of Operations",
+                "company": "BioGen International"
+            },
+            {
+                "id": 3,
+                "quote": "A proactive team that genuinely cares about patient access. They go above and beyond to solve supply chain challenges.",
+                "author": "Mohammed Al-Qahtani",
+                "role": "CEO",
+                "company": "Riyadh Care Hospital"
+            }
+        ]
+    },
+    "scheduler": {
+        "label": "Schedule Meeting",
+        "hero": {
+            "title": "Schedule a Meeting",
+            "subtitle": "Book a time to discuss partnership opportunities"
+        },
+        "selectType": "Select Meeting Type",
+        "types": {
+            "intro": {
+                "title": "Introductory Call",
+                "desc": "Brief 15-min chat to get to know each other."
+            },
+            "partnership": {
+                "title": "Partnership Discussion",
+                "desc": "In-depth discussion about potential collaboration."
+            },
+            "product": {
+                "title": "Product Demo",
+                "desc": "Detailed presentation of our product portfolio."
+            },
+            "regulatory": {
+                "title": "Regulatory Consultation",
+                "desc": "Consults on SFDA regulations and registration."
+            }
+        },
+        "calendly": {
+            "title": "Calendly Integration",
+            "subtitle": "Select a time slot from the calendar below"
+        },
+        "prompt": "Please select a date and time that works for you."
+    },
+    "privacy": {
+        "label": "Legal",
+        "hero": {
+            "title": "Privacy Policy",
+            "subtitle": "How we handle and protect your data"
+        },
+        "sections": {
+            "intro": {
+                "title": "Introduction",
+                "text": "We at HAC Pharma are committed to protecting your privacy. This policy outlines how we collect, use, and safeguard your personal information."
+            },
+            "contact": {
+                "emailLabel": "Email:",
+                "addressLabel": "Address:",
+                "addressValue": "Riyadh, Saudi Arabia"
+            }
+        }
+    },
+    "faq": {
+        "label": "Support",
+        "hero": {
+            "title": "Frequently Asked Questions",
+            "subtitle": "Find answers to common questions about our services"
+        },
+        "list": [
+            {
+                "id": 1,
+                "question": "Which regions do you cover?",
+                "answer": "We cover the entire Kingdom of Saudi Arabia and have specialized distribution networks for GCC countries."
+            },
+            {
+                "id": 2,
+                "question": "How can we become a partner?",
+                "answer": "Please reach out via our contact form or schedule a meeting through our scheduler page."
+            }
+        ],
+        "cta": {
+            "title": "Still have questions?",
+            "subtitle": "We're here to help.",
+            "button": "Contact Support"
+        }
+    },
+    "downloads": {
+        "title": "Resources & Downloads",
+        "subtitle": "Access our brochures, certificates, and product information",
+        "brochures": "Brochures",
+        "certificates": "Certificates",
+        "datasheets": "Product Datasheets"
+    },
+    "portal": {
+        "login": "Customer Portal Login",
+        "email": "Email",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot Password?",
+        "loginButton": "Login",
+        "noAccount": "Don't have an account?",
+        "requestAccess": "Request Access",
+        "dashboard": "Dashboard",
+        "orders": "Orders",
+        "invoices": "Invoices",
+        "documents": "Documents",
+        "profile": "Profile",
+        "logout": "Logout"
+    },
+    "chat": {
+        "needHelp": "Need Help?",
+        "chatWithUs": "Chat via WhatsApp",
+        "businessHours": "Business Hours: 9 AM - 6 PM (Riyadh Time)"
+    },
+    "theme": {
+        "light": "Light Mode",
+        "dark": "Dark Mode"
+    },
+    "accessibility": {
+        "skipToContent": "Skip to main content",
+        "openMenu": "Open navigation menu",
+        "closeMenu": "Close navigation menu",
+        "previousSlide": "Previous slide",
+        "nextSlide": "Next slide"
+    },
+    "team": {
+        "hero": {
+            "label": "Our Team",
+            "title": "Meet the Leaders",
+            "subtitle": "Experienced professionals driving healthcare innovation"
+        },
+        "leadership": {
+            "title": "Leadership Team",
+            "list": [
+                {
+                    "name": "Ahmed Al-Rashid",
+                    "role": "Chief Executive Officer",
+                    "bio": "Over 25 years of pharmaceutical industry experience, leading strategic growth initiatives across the region.",
+                    "image": ""
+                },
+                {
+                    "name": "Sarah Al-Mansour",
+                    "role": "Chief Operating Officer",
+                    "bio": "Expert in supply chain optimization and operational excellence with a focus on regulatory compliance.",
+                    "image": ""
+                },
+                {
+                    "name": "Mohammed Al-Faisal",
+                    "role": "Chief Financial Officer",
+                    "bio": "Proven track record in financial strategy and sustainable business growth in healthcare sector.",
+                    "image": ""
+                }
+            ]
+        },
+        "departments": {
+            "title": "Department Heads",
+            "list": [
+                {
+                    "name": "Nadia Hassan",
+                    "role": "Head of Regulatory Affairs"
+                },
+                {
+                    "name": "Khalid Omar",
+                    "role": "Head of Business Development"
+                },
+                {
+                    "name": "Fatima Al-Zahrani",
+                    "role": "Head of Medical Affairs"
+                },
+                {
+                    "name": "Omar Al-Qahtani",
+                    "role": "Head of Supply Chain"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Join Our Team",
+            "subtitle": "We're always looking for talented individuals to join our mission",
+            "button": "View Open Positions"
+        }
+    },
+    "careers": {
+        "hero": {
+            "label": "Careers",
+            "title": "Join Our Mission",
+            "subtitle": "Build your career while making healthcare accessible to everyone"
+        },
+        "culture": {
+            "title": "Why Work With Us?",
+            "cards": {
+                "growth": {
+                    "title": "Growth Opportunities",
+                    "desc": "Continuous learning and career advancement paths"
+                },
+                "global": {
+                    "title": "Global Exposure",
+                    "desc": "Work with international partners and markets"
+                },
+                "impact": {
+                    "title": "Impactful Work",
+                    "desc": "Make a real difference in healthcare access"
+                },
+                "collab": {
+                    "title": "Collaborative Culture",
+                    "desc": "Supportive team environment and mentorship"
+                }
+            }
+        },
+        "positions": {
+            "title": "Open Positions",
+            "loading": "Loading open positions...",
+            "empty": "No open positions at the moment. Please check back later.",
+            "apply": "Apply Now"
+        },
+        "cta": {
+            "title": "Don't See Your Role?",
+            "subtitle": "Send us your CV and we'll reach out when a suitable position opens.",
+            "button": "Send Your CV"
+        },
+        "modal": {
+            "title": "Apply for Position",
+            "success": {
+                "title": "Application Submitted!",
+                "message": "Thank you for your interest. We'll review your application and get back to you soon.",
+                "close": "Close"
+            },
+            "form": {
+                "name": "Full Name *",
+                "namePlaceholder": "John Doe",
+                "email": "Email Address *",
+                "emailPlaceholder": "john@example.com",
+                "phone": "Phone Number",
+                "phonePlaceholder": "+966 5XX XXX XXXX",
+                "linkedin": "LinkedIn Profile",
+                "linkedinPlaceholder": "https://linkedin.com/in/yourprofile",
+                "coverLetter": "Cover Letter",
+                "coverLetterPlaceholder": "Tell us why you're interested in this position and what makes you a great fit...",
+                "resume": "Resume/CV",
+                "fileSelect": "Choose file or drag here (PDF, DOC)",
+                "cancel": "Cancel",
+                "submit": "Submit Application",
+                "submitting": "Submitting..."
+            },
+            "errors": {
+                "requiredName": "Please enter your full name",
+                "requiredEmail": "Please enter your email address",
+                "invalidEmail": "Please enter a valid email address",
+                "submitFailed": "Failed to submit application. Please try again."
+            }
+        }
+    },
+    "partnersPage": {
+        "hero": {
+            "label": "Our Partners",
+            "title": "Strategic Partnerships",
+            "subtitle": "Collaborating with global leaders for better healthcare"
+        },
+        "types": [
+            {
+                "icon": "🏭",
+                "title": "Manufacturers",
+                "description": "Partnering with world-class pharmaceutical manufacturers to bring innovative products to market."
+            },
+            {
+                "icon": "🏥",
+                "title": "Healthcare Institutions",
+                "description": "Working with hospitals and clinics to ensure seamless supply of essential medicines."
+            },
+            {
+                "icon": "🔬",
+                "title": "Research Organizations",
+                "description": "Collaborating with research institutions to advance pharmaceutical innovation."
+            }
+        ],
+        "why": {
+            "title": "Why Partner With Us?",
+            "benefits": [
+                {
+                    "title": "Regional Expertise",
+                    "description": "Deep understanding of GCC markets and regulatory landscape"
+                },
+                {
+                    "title": "Regulatory Excellence",
+                    "description": "Proven track record with SFDA and regional authorities"
+                },
+                {
+                    "title": "Distribution Network",
+                    "description": "Comprehensive logistics and cold chain capabilities"
+                },
+                {
+                    "title": "Market Access",
+                    "description": "Strong relationships with healthcare institutions"
+                }
+            ],
+            "stats": [
+                {
+                    "value": "50+",
+                    "label": "Global Partners"
+                },
+                {
+                    "value": "6",
+                    "label": "Countries"
+                },
+                {
+                    "value": "100+",
+                    "label": "Products"
+                },
+                {
+                    "value": "15+",
+                    "label": "Years Experience"
+                }
+            ]
+        },
+        "cta": {
+            "title": "Become a Partner",
+            "subtitle": "Interested in exploring partnership opportunities? Let's connect.",
+            "button": "Contact Our Team"
+        }
+    },
+    "events": {
+        "label": "Events",
+        "hero": {
+            "title": "Upcoming Events & Webinars",
+            "subtitle": "Join our latest sessions, conferences, and training workshops."
+        },
+        "empty": {
+            "title": "No Upcoming Events",
+            "subtitle": "Check back later for new events and webinars."
+        },
+        "types": {
+            "webinar": "Webinar",
+            "conference": "Conference",
+            "training": "Training"
+        },
+        "searchComponent": {
+            "quickLinks": "Quick Links",
+            "noResults": "No results found for"
+        },
+        "register": "Register Now"
+    }
+}

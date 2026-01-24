@@ -1,0 +1,196 @@
+/* ========================================
+   HAC Pharma - Global Theme Styles
+   Includes Dark Mode & RTL Support
+======================================== */
+
+:root {
+  /* Primary Colors */
+  --primary-blue: #0EA5E9;
+  --primary-green: #10B981;
+  --accent-teal: #14B8A6;
+  --deep-blue: #0369A1;
+  --deep-green: #047857;
+
+  /* Light Theme (Default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #F8FAFC;
+  --bg-tertiary: #F1F5F9;
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --bg-glass: rgba(255, 255, 255, 0.8);
+  --bg-dark: #0F172A;
+
+  /* Text Colors */
+  --text-primary: #1E293B;
+  --text-secondary: #475569;
+  --text-muted: #64748B;
+  --text-light: #F8FAFC;
+
+  /* Border Colors */
+  --border-light: #E2E8F0;
+  --border-medium: #CBD5E1;
+
+  /* Effects */
+  --glass-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  --card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+  --neon-glow: 0 0 10px rgba(14, 165, 233, 0.5);
+
+  /* Transitions */
+  --ease-elastic: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-primary: #0F172A;
+  --bg-secondary: #1E293B;
+  --bg-tertiary: #334155;
+  --bg-card: rgba(30, 41, 59, 0.9);
+  --bg-glass: rgba(15, 23, 42, 0.8);
+  --bg-dark: #020617;
+
+  --text-primary: #F1F5F9;
+  --text-secondary: #CBD5E1;
+  --text-muted: #94A3B8;
+  --text-light: #F8FAFC;
+
+  --border-light: #334155;
+  --border-medium: #475569;
+
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  --card-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5);
+}
+
+/* RTL Support */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .nav-menu {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .hero-content {
+  direction: rtl;
+}
+
+[dir="rtl"] .philosophy-item:hover {
+  transform: translateX(-5px);
+}
+
+[dir="rtl"] .phase-content::before {
+  right: auto;
+  left: -10px;
+}
+
+[dir="rtl"] .roadmap-phase:nth-child(odd) .phase-content::before {
+  right: auto;
+  left: -10px;
+}
+
+[dir="rtl"] .roadmap-phase:nth-child(even) .phase-content::before {
+  left: auto;
+  right: -10px;
+}
+
+/* Dark Theme Body Styles */
+body.dark-theme {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body.dark-theme .navbar.scrolled {
+  background: rgba(15, 23, 42, 0.9);
+  border-bottom: 1px solid var(--border-light);
+}
+
+body.dark-theme .nav-link {
+  color: var(--text-primary);
+}
+
+body.dark-theme .service-card,
+body.dark-theme .about-card,
+body.dark-theme .phase-content {
+  background: var(--bg-secondary);
+  border-color: var(--border-light);
+}
+
+body.dark-theme .hero-section {
+  background: radial-gradient(circle at top right, #1E293B, #0F172A);
+}
+
+body.dark-theme .section {
+  background-color: var(--bg-primary);
+}
+
+body.dark-theme .philosophy-item {
+  background: var(--bg-tertiary);
+}
+
+body.dark-theme .philosophy-item:hover {
+  background: var(--bg-secondary);
+}
+
+body.dark-theme .btn-outline {
+  color: var(--text-primary);
+  border-color: var(--border-light);
+}
+
+body.dark-theme .btn-outline:hover {
+  background: rgba(14, 165, 233, 0.1);
+}
+
+/* Global Focus Styles for Accessibility */
+:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}
+
+/* Skip to Content Link */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary-blue);
+  color: white;
+  padding: 8px 16px;
+  z-index: 10000;
+  transition: top 0.3s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Arabic Font Support */
+[lang="ar"] {
+  font-family: 'Noto Sans Arabic', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

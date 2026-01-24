@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Angular
+dist
+tmp
+/out-tsc
+/bazel-out
+
+# IDEs
+.idea
+.vscode
+.cursor
+.windsurf
+.gemini
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
