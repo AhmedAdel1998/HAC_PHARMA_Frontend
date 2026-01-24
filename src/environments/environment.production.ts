@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: '/api',
-    mediaBaseUrl: ''  // In production, media is served from the same origin
+    apiUrl: 'https://hacpharmabackend-production.up.railway.app/api',
+    mediaBaseUrl: 'https://hacpharmabackend-production.up.railway.app'
 };

@@ -1,19 +1,19 @@
 {
   "/api": {
-    "target": "https://localhost:7255",
-    "secure": false,
+    "target": "https://hacpharmabackend-production.up.railway.app",
+    "secure": true,
     "changeOrigin": true,
     "logLevel": "debug"
   },
   "/uploads": {
-    "target": "https://localhost:7255",
-    "secure": false,
+    "target": "https://hacpharmabackend-production.up.railway.app",
+    "secure": true,
     "changeOrigin": true,
     "logLevel": "debug"
   },
   "/hubs": {
-    "target": "https://localhost:7255",
-    "secure": false,
+    "target": "https://hacpharmabackend-production.up.railway.app",
+    "secure": true,
     "changeOrigin": true,
     "ws": true,
     "logLevel": "debug"
