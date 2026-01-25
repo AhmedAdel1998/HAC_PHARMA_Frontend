@@ -21,7 +21,7 @@ export const appConfig: ApplicationConfig = {
           useFactory: cmsTranslateLoaderFactory,
           deps: [HttpClient]
         },
-        defaultLanguage: 'en'
+        fallbackLang: 'en'
       })
     )
   ]
