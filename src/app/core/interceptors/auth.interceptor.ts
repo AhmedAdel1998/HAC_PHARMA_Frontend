@@ -4,6 +4,7 @@ import { AuthService } from '../services/auth.service';
 import { catchError } from 'rxjs/operators';
 import { throwError } from 'rxjs';
 import { HttpErrorResponse } from '@angular/common/http';
+import { environment } from '../../../environments/environment';
 
 export const authInterceptor: HttpInterceptorFn = (req, next) => {
     const authService = inject(AuthService);
@@ -11,7 +12,7 @@ export const authInterceptor: HttpInterceptorFn = (req, next) => {
     console.log(`[AuthInterceptor] Processing ${req.url.split('/').pop()}`, { hasToken: !!token });
 
     // Skip attaching token for auth endpoints (login, refresh) and ensures token is valid string
-    if (token && token !== 'null' && !req.url.includes('/api/auth/')) {
+    if (token && token !== 'null' && !req.url.includes(`${environment.apiUrl}/auth/`)) {
         req = req.clone({
             setHeaders: {
                 Authorization: `Bearer ${token}`

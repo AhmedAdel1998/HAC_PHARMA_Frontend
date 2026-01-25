@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { TranslateLoader } from '@ngx-translate/core';
 import { Observable, of, catchError, switchMap, map, forkJoin } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 /**
  * Custom translation loader that fetches translations from the backend API
@@ -9,7 +10,7 @@ import { Observable, of, catchError, switchMap, map, forkJoin } from 'rxjs';
 export class CmsTranslateLoader implements TranslateLoader {
     constructor(
         private http: HttpClient,
-        private apiUrl: string = '/api/translations',
+        private apiUrl: string = `${environment.apiUrl}/translations`,
         private staticPath: string = '/assets/i18n'
     ) { }
 

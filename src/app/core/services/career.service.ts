@@ -6,6 +6,8 @@ import { map } from 'rxjs/operators';
 import { Job, JobApplication, PaginatedResponse } from '../models/cms.models';
 import { AuthService } from './auth.service';
 
+import { environment } from '../../../environments/environment';
+
 interface JobListResponse {
     items: Job[];
     total: number;
@@ -18,7 +20,7 @@ export class CareerService {
     private readonly http = inject(HttpClient);
     private readonly auth = inject(AuthService);
     private readonly platformId = inject(PLATFORM_ID);
-    private readonly API_URL = '/api/jobs';
+    private readonly API_URL = `${environment.apiUrl}/jobs`;
 
     // Get jobs (public: activeOnly=true, admin: activeOnly=false)
     getJobs(activeOnly: boolean = true): Observable<Job[]> {

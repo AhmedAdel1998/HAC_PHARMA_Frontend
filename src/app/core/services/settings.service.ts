@@ -4,13 +4,15 @@ import { SiteSettings } from '../models/cms.models';
 import { tap } from 'rxjs';
 import { isPlatformBrowser } from '@angular/common';
 
+import { environment } from '../../../environments/environment';
+
 @Injectable({
     providedIn: 'root'
 })
 export class SettingsService {
     private readonly http = inject(HttpClient);
     private readonly platformId = inject(PLATFORM_ID);
-    private readonly API_URL = '/api/settings/public';
+    private readonly API_URL = `${environment.apiUrl}/settings/public`;
 
     // Signal to hold settings
     settings = signal<Partial<SiteSettings> | null>(null);

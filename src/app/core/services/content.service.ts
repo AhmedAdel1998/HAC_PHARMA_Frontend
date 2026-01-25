@@ -4,6 +4,8 @@ import { Observable, of, catchError } from 'rxjs';
 import { PageContent, ContentBlock } from '../models/cms.models';
 import { AuthService } from './auth.service';
 
+import { environment } from '../../../environments/environment';
+
 export interface PageInfo {
     key: string;
     name: string;
@@ -20,8 +22,8 @@ export interface PageInfo {
 export class ContentService {
     private readonly http = inject(HttpClient);
     private readonly auth = inject(AuthService);
-    private readonly CONTENT_API = '/api/content';
-    private readonly TRANSLATIONS_API = '/api/translations';
+    private readonly CONTENT_API = `${environment.apiUrl}/content`;
+    private readonly TRANSLATIONS_API = `${environment.apiUrl}/translations`;
 
     // Get content for a page (legacy API)
     getPageContent(pageKey: string, lang: string): Observable<PageContent> {

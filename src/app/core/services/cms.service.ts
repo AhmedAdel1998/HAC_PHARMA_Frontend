@@ -2,6 +2,8 @@ import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of, catchError, tap, shareReplay } from 'rxjs';
 
+import { environment } from '../../../environments/environment';
+
 export interface PageInfo {
   key: string;
   name: string;
@@ -17,7 +19,7 @@ export interface PageInfo {
 })
 export class CmsService {
   private readonly http = inject(HttpClient);
-  private readonly API_URL = '/api/translations';
+  private readonly API_URL = `${environment.apiUrl}/translations`;
 
   // Cache for translations
   private translationsCache: Map<string, Observable<Record<string, any>>> = new Map();
@@ -28,7 +30,7 @@ export class CmsService {
    */
   getTranslations(lang: string): Observable<Record<string, any>> {
     const cacheKey = `all_${lang}`;
-    
+
     if (!this.translationsCache.has(cacheKey)) {
       const request = this.http.get<Record<string, any>>(`${this.API_URL}/${lang}`).pipe(
         catchError(error => {
@@ -40,7 +42,7 @@ export class CmsService {
       );
       this.translationsCache.set(cacheKey, request);
     }
-    
+
     return this.translationsCache.get(cacheKey)!;
   }
 

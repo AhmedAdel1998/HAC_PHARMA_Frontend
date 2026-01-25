@@ -3,6 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Media, PaginatedResponse } from '../models/cms.models';
 import { AuthService } from './auth.service';
+
+
 import { environment } from '../../../environments/environment';
 
 @Injectable({
@@ -11,7 +13,7 @@ import { environment } from '../../../environments/environment';
 export class MediaService {
     private readonly http = inject(HttpClient);
     private readonly auth = inject(AuthService);
-    private readonly API_URL = '/api/media';
+    private readonly API_URL = `${environment.apiUrl}/media`;
 
     // Get all media
     getMedia(type?: string, page = 1): Observable<PaginatedResponse<Media>> {

@@ -4,6 +4,8 @@ import { Observable, of, delay } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 import { AuthService } from './auth.service';
 
+import { environment } from '../../../environments/environment';
+
 export interface ActivityItem {
     id: number;
     type: 'page_update' | 'product_add' | 'product_update' | 'rfq_received' | 'user_login' | 'media_upload' | 'settings_change';
@@ -22,7 +24,7 @@ export class ActivityService {
     private readonly auth = inject(AuthService);
 
     getRecentActivities(limit = 10): Observable<ActivityItem[]> {
-        return this.http.get<ActivityItem[]>('/api/analytics/activity', {
+        return this.http.get<ActivityItem[]>(`${environment.apiUrl}/analytics/activity`, {
             headers: this.auth.getAuthHeaders()
         }).pipe(
             map(activities => activities.map(item => ({

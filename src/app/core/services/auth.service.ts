@@ -5,13 +5,15 @@ import { Router } from '@angular/router';
 import { Observable, tap, catchError, of } from 'rxjs';
 import { User, LoginRequest, AuthResponse } from '../models/cms.models';
 
+import { environment } from '../../../environments/environment';
+
 @Injectable({
     providedIn: 'root'
 })
 export class AuthService {
     private readonly http = inject(HttpClient);
     private readonly router = inject(Router);
-    private readonly API_URL = '/api/auth';
+    private readonly API_URL = `${environment.apiUrl}/auth`;
 
     private readonly currentUser = signal<User | null>(null);
     private readonly token = signal<string | null>(null);

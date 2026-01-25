@@ -3,17 +3,19 @@
  * Centralized API endpoints for the HAC Pharma application
  */
 
+import { environment } from '../../environments/environment';
+
 export const API_ENDPOINTS = {
   AUTH: {
-    LOGIN: '/api/auth/login',
-    REGISTER: '/api/auth/register',
-    LOGOUT: '/api/auth/logout',
-    REFRESH_TOKEN: '/api/auth/refresh',
-    FORGOT_PASSWORD: '/api/auth/forgot-password',
-    RESET_PASSWORD: '/api/auth/reset-password',
+    LOGIN: `${environment.apiUrl}/auth/login`,
+    REGISTER: `${environment.apiUrl}/auth/register`,
+    LOGOUT: `${environment.apiUrl}/auth/logout`,
+    REFRESH_TOKEN: `${environment.apiUrl}/auth/refresh`,
+    FORGOT_PASSWORD: `${environment.apiUrl}/auth/forgot-password`,
+    RESET_PASSWORD: `${environment.apiUrl}/auth/reset-password`,
   },
   USER: {
-    PROFILE: '/api/user/profile',
-    UPDATE_PROFILE: '/api/user/profile',
+    PROFILE: `${environment.apiUrl}/user/profile`,
+    UPDATE_PROFILE: `${environment.apiUrl}/user/profile`,
   },
 } as const;

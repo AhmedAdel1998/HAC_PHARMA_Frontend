@@ -5,13 +5,15 @@ import { map } from 'rxjs/operators';
 import { Product, DrugInteraction, PaginatedResponse } from '../models/cms.models';
 import { AuthService } from './auth.service';
 
+import { environment } from '../../../environments/environment';
+
 @Injectable({
     providedIn: 'root'
 })
 export class ProductService {
     private readonly http = inject(HttpClient);
     private readonly auth = inject(AuthService);
-    private readonly API_URL = '/api/products';
+    private readonly API_URL = `${environment.apiUrl}/products`;
 
     // Get products with filtering
     getProducts(options?: {

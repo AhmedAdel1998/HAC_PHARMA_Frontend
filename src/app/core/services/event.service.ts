@@ -5,6 +5,8 @@ import { Event } from '../models/cms.models';
 import { AuthService } from './auth.service';
 import { isPlatformBrowser } from '@angular/common';
 
+import { environment } from '../../../environments/environment';
+
 interface EventListResponse {
     items: Event[];
     total: number;
@@ -17,7 +19,7 @@ export class EventService {
     private readonly http = inject(HttpClient);
     private readonly auth = inject(AuthService);
     private readonly platformId = inject(PLATFORM_ID);
-    private readonly API_URL = '/api/events';
+    private readonly API_URL = `${environment.apiUrl}/events`;
 
     // Get all events (public)
     getEvents(): Observable<Event[]> {

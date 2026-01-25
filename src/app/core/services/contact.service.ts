@@ -3,6 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { AuthService } from './auth.service';
 
+import { environment } from '../../../environments/environment';
+
 export interface SubmitContactDTO {
     name: string;
     email: string;
@@ -40,7 +42,7 @@ export interface ContactListResponse {
 export class ContactService {
     private readonly http = inject(HttpClient);
     private readonly auth = inject(AuthService);
-    private readonly API_URL = '/api/contact';
+    private readonly API_URL = `${environment.apiUrl}/contact`;
 
     // Public: Submit contact form
     submitContact(data: SubmitContactDTO): Observable<ContactInquiry> {
