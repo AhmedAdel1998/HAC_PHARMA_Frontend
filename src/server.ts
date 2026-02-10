@@ -25,25 +25,45 @@ const angularApp = new AngularNodeAppEngine();
  */
 
 /**
- * Serve static files from /browser
+ * Serve static files from /browser with smart cache headers.
+ * - Fingerprinted assets (JS/CSS with hashes): cached immutably for 1 year
+ * - HTML, JSON, and other non-fingerprinted files: never cached
  */
 app.use(
   express.static(browserDistFolder, {
-    maxAge: '1y',
     index: false,
     redirect: false,
+    setHeaders(res, filePath) {
+      // Fingerprinted files contain a hash like chunk-XXXX.js or styles-XXXX.css
+      if (/\.[a-f0-9]{8,}\.\w+$/i.test(filePath)) {
+        res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+      } else {
+        // HTML, JSON, manifest, version — never cache
+        res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        res.setHeader('Pragma', 'no-cache');
+        res.setHeader('Expires', '0');
+      }
+    },
   }),
 );
 
 /**
  * Handle all other requests by rendering the Angular application.
+ * SSR pages are never cached so users always get the latest version.
  */
 app.use((req, res, next) => {
   angularApp
     .handle(req)
-    .then((response) =>
-      response ? writeResponseToNodeResponse(response, res) : next(),
-    )
+    .then((response) => {
+      if (response) {
+        res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        res.setHeader('Pragma', 'no-cache');
+        res.setHeader('Expires', '0');
+        writeResponseToNodeResponse(response, res);
+      } else {
+        next();
+      }
+    })
     .catch(next);
 });
 
