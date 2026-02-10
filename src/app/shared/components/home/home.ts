@@ -1,6 +1,7 @@
 import { Component, OnInit, HostListener, inject, PLATFORM_ID, AfterViewInit, OnDestroy, ChangeDetectorRef, ChangeDetectionStrategy, NgZone } from '@angular/core';
 import { CommonModule, isPlatformBrowser, NgOptimizedImage } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { RouterLink } from '@angular/router';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
 import { Subscription } from 'rxjs';
 import { RoadmapPhase, Service, Product, ContactForm } from '../../models/home.model';
@@ -12,7 +13,7 @@ import { VisibilityObserverDirective } from '../../directives/visibility-observe
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, FormsModule, TranslateModule, HeaderComponent, FooterComponent, NgOptimizedImage, VisibilityObserverDirective],
+  imports: [CommonModule, FormsModule, TranslateModule, RouterLink, HeaderComponent, FooterComponent, NgOptimizedImage, VisibilityObserverDirective],
   templateUrl: './home.html',
   styleUrl: './home.css',
   changeDetection: ChangeDetectionStrategy.OnPush

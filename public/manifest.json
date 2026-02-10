@@ -1,7 +1,7 @@
 {
     "name": "HAC Pharma",
     "short_name": "HACPharma",
-    "description": "Leading pharmaceutical distribution company in Saudi Arabia & GCC",
+    "description": "Leading medical distribution company in Saudi Arabia & GCC",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

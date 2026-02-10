@@ -31,7 +31,7 @@
         "retry": "Try Again"
     },
     "header": {
-        "innovatingHealthcare": "Innovating Healthcare",
+        "innovatingHealthcare": "Bridging Healthcare Gaps",
         "getInTouch": "Get in Touch",
         "aria": {
             "openMenu": "Open menu",
@@ -42,8 +42,8 @@
         }
     },
     "hero": {
-        "badge": "Innovating Healthcare",
-        "subtitle": "Bridging global pharmaceutical innovation with local healthcare needs. Access to essential medication is not a privilege — it's a human right.",
+        "badge": "Bridging Healthcare Gaps",
+        "subtitle": "Connecting global medical innovation with local healthcare needs. Access to essential medication is not a privilege — it's a human right.",
         "typingWords": {
             "community": "Community",
             "future": "Future",
@@ -53,8 +53,8 @@
         "exploreServices": "Explore Services",
         "getInTouch": "Get in Touch",
         "trustedPartner": "Trusted Partner",
-        "sfdaCompliant": "SFDA Compliant & GCC Licensed",
-        "gccMarkets": "GCC Markets",
+        "sfdaCompliant": "SFDA Compliant & Strong Supply Chain",
+        "gccMarkets": "Markets",
         "globalNetwork": "Global Network"
     },
     "stats": {
@@ -74,21 +74,21 @@
         },
         {
             "value": "20+",
-            "label": "Countries"
+            "label": "Collaboration"
         },
         {
-            "value": "15+",
-            "label": "Years of Excellence"
+            "value": "+15",
+            "label": "Alliance"
         }
     ],
     "about": {
         "sectionLabel": "About Us",
         "title": "Bridging Healthcare Gaps",
         "globalVision": "Global Vision, Local Impact",
-        "description1": "Foundation Health Corporation established its headquarters in Riyadh, marking the genesis of its venture in the region. This strategic move allows the company to efficiently manage and oversee its virtual offices in key markets including the USA, France, Egypt, India, and China.",
+        "description1": "HAC-PHARMA (Rabitat Al Seha Company) established its headquarters in Riyadh, marking the genesis of its venture in the region. This strategic move allows the company to efficiently manage and oversee its network in key markets, including the USA, Europe, Egypt, India, and China.",
         "description2": "By centralizing operations in KSA, the company aims to foster better coordination and streamline its services across all locations, enhancing communication and synergy among its international teams.",
-        "philosophyTitle": "HAC Pharma Philosophy",
-        "philosophyDescription": "At HAC Pharma, we believe access to essential medication is not a privilege — it's a human right. Our philosophy is rooted in compassion, innovation, and responsiveness. We are committed to:",
+        "philosophyTitle": "HAC-Pharma Philosophy",
+        "philosophyDescription": "At HAC-PHARMA (Rabitat Al Seha Company), we believe access to essential medication is not a privilege — it's a human right. Our philosophy is rooted in compassion, innovation, and responsiveness. We are committed to:",
         "bridgingGaps": "Bridging gaps in medication availability",
         "enhancingQuality": "Enhancing quality of life",
         "empoweringHealthcare": "Empowering healthcare systems",
@@ -112,15 +112,15 @@
             "china": "🇨🇳 China"
         },
         "missionTitle": "Mission Statement",
-        "missionText": "To deliver life-saving and life-enhancing pharmaceutical solutions by bridging access gaps, accelerating product availability, and empowering healthcare systems through strategic innovation and regulatory excellence.",
+        "missionText": "To deliver life-saving and life-enhancing medical solutions by bridging access gaps, accelerating product availability, and empowering healthcare systems through strategic innovation and regulatory excellence.",
         "visionTitle": "Vision Statement",
-        "visionText": "A region where every patient receives timely, reliable, and effective treatment, powered by a forward-thinking pharmaceutical network that anticipates needs, acts with compassion, and leads with integrity."
+        "visionText": "A region where every patient receives timely, reliable, and effective treatment, powered by a forward-thinking medical network that anticipates needs, acts with compassion, and leads with integrity."
     },
     "services": {
         "title": "Our Services",
-        "pageTitle": "Comprehensive Pharmaceutical Solutions",
+        "pageTitle": "Comprehensive Medical Solutions",
         "pageSubtitle": "End-to-end services across the healthcare value chain",
-        "subtitle": "Comprehensive pharmaceutical services across the healthcare value chain",
+        "subtitle": "Comprehensive medical services across the healthcare value chain",
         "list": [
             {
                 "icon": "⚖️",
@@ -189,7 +189,7 @@
     "products": {
         "title": "Product Portfolio",
         "hero": {
-            "subtitle": "Explore our comprehensive range of high-quality pharmaceutical products."
+            "subtitle": "Explore our comprehensive range of high-quality medical products."
         },
         "searchPlaceholder": "Search products...",
         "categories": {
@@ -397,7 +397,7 @@
         "company": "Company",
         "quickLinks": "Quick Links",
         "servicesTitle": "Services",
-        "description": "Leading the way in pharmaceutical excellence. We are committed to delivering high-quality healthcare solutions across the globe.",
+        "description": "Leading the way in medical excellence. We are committed to delivering high-quality healthcare solutions across the globe.",
         "serviceLinks": {
             "distribution": "Distribution",
             "regulatory": "Regulatory Affairs",
@@ -416,7 +416,7 @@
         "label": "Insights",
         "hero": {
             "title": "Blog & Insights",
-            "subtitle": "Stay updated with the latest news and insights from the pharmaceutical industry"
+            "subtitle": "Stay updated with the latest news and insights from the medical industry"
         },
         "featured": "Featured",
         "recentPosts": "Recent Articles",
@@ -433,7 +433,7 @@
             {
                 "id": 1,
                 "title": "Navigating New SFDA Regulations",
-                "excerpt": "A comprehensive guide to the latest regulatory changes in the Saudi pharmaceutical market.",
+                "excerpt": "A comprehensive guide to the latest regulatory changes in the Saudi medical market.",
                 "category": "blog.categories.regulations",
                 "date": "2026-01-15",
                 "readTime": 5,
@@ -460,7 +460,7 @@
             {
                 "id": 4,
                 "title": "Global Pharma Trends 2026",
-                "excerpt": "Key insights into the evolving landscape of global pharmaceutical markets.",
+                "excerpt": "Key insights into the evolving landscape of global medical markets.",
                 "category": "blog.categories.research",
                 "date": "2025-12-28",
                 "readTime": 6,
@@ -552,7 +552,7 @@
         "label": "Testimonials",
         "hero": {
             "title": "What Our Partners Say",
-            "subtitle": "Hear from the healthcare institutions and pharmaceutical companies we work with"
+            "subtitle": "Hear from the healthcare institutions and medical companies we work with"
         },
         "list": [
             {
@@ -702,7 +702,7 @@
                 {
                     "name": "Ahmed Al-Rashid",
                     "role": "Chief Executive Officer",
-                    "bio": "Over 25 years of pharmaceutical industry experience, leading strategic growth initiatives across the region.",
+                    "bio": "Over 25 years of medical industry experience, leading strategic growth initiatives across the region.",
                     "image": ""
                 },
                 {
@@ -826,7 +826,7 @@
             {
                 "icon": "🏭",
                 "title": "Manufacturers",
-                "description": "Partnering with world-class pharmaceutical manufacturers to bring innovative products to market."
+                "description": "Partnering with world-class medical manufacturers to bring innovative products to market."
             },
             {
                 "icon": "🏥",
@@ -836,7 +836,7 @@
             {
                 "icon": "🔬",
                 "title": "Research Organizations",
-                "description": "Collaborating with research institutions to advance pharmaceutical innovation."
+                "description": "Collaborating with research institutions to advance medical innovation."
             }
         ],
         "why": {

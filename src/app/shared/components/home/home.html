@@ -26,8 +26,8 @@
                     {{ 'hero.subtitle' | translate }}
                 </p>
                 <div class="hero-actions">
-                    <button class="btn btn-primary" (click)="scrollToSection('services')">{{ 'hero.exploreServices' |
-                        translate }}</button>
+                    <a class="btn btn-primary" routerLink="/services">{{ 'hero.exploreServices' |
+                        translate }}</a>
                     <button class="btn btn-outline" (click)="scrollToSection('contact')">{{ 'hero.getInTouch' |
                         translate }}</button>
                 </div>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="visual-card card-main">
-                    <!-- Animated Pharmaceutical Icon -->
+                    <!-- Animated Medical Icon -->
                     <div class="pharma-animation"
                         style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
                         <!-- Animated Pill -->
@@ -291,29 +291,7 @@
 <section class="section" style="min-height: 500px"></section>
 }
 
-<!-- Services Section -->
-@defer (on viewport) {
-<section id="services" class="section services-section">
-    <div class="container">
-        <div class="section-header fade-in">
-            <h2 class="section-title">{{ 'services.title' | translate }}</h2>
-            <p class="section-subtitle">{{ 'services.subtitle' | translate }}</p><br>
-        </div>
 
-        <div class="services-grid">
-            <div class="service-card fade-up" *ngFor="let service of services; let i = index">
-                <div class="service-icon-wrapper">
-                    <span style="font-size: 30px;">{{ service.icon }}</span>
-                </div>
-                <h3 style="margin-bottom: 12px; font-size: 20px;">{{ service.title }}</h3>
-                <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6;">{{ service.description }}</p>
-            </div>
-        </div>
-    </div>
-</section>
-} @placeholder {
-<section class="section" style="min-height: 400px"></section>
-}
 
 <!-- Foundation Section -->
 @defer (on viewport) {
@@ -588,63 +566,9 @@
 <section class="section" style="min-height: 400px"></section>
 }
 
-<!-- Roadmap Section -->
-@defer (on viewport) {
-<section id="roadmap" class="section" style="background: #F8FAFC;">
-    <div class="container">
-        <div class="section-header fade-in">
-            <span class="section-label">{{ 'roadmap.label' | translate }}</span>
-            <h2 class="section-title">{{ 'roadmap.title' | translate }}</h2>
-        </div>
 
-        <div class="roadmap-timeline">
-            <div class="roadmap-line"></div>
-            <div class="roadmap-progress" id="roadmap-progress"></div>
 
-            <div class="roadmap-phase" *ngFor="let phase of roadmapPhases; let i = index">
-                <div class="phase-dot"></div>
-                <div class="phase-content">
-                    <div style="font-size: 40px; margin-bottom: 16px;">{{ phase.icon }}</div>
-                    <h3 style="color: var(--primary-blue); font-size: 20px; margin-bottom: 12px;">{{ phase.title }}</h3>
-                    <ul style="list-style: none;">
-                        <li *ngFor="let item of phase.items"
-                            style="display: flex; gap: 8px; margin-bottom: 8px; font-size: 14px; color: var(--text-muted);">
-                            <span style="color: var(--primary-green); font-weight: bold;">✓</span>
-                            {{ item }}
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-} @placeholder {
-<section class="section" style="min-height: 400px"></section>
-}
 
-<!-- Products Section -->
-@defer (on viewport) {
-<section id="products" class="section">
-    <div class="container">
-        <div class="section-header fade-in">
-            <h2 class="section-title">{{ 'products.title' | translate }}</h2>
-        </div>
-
-        <div class="products-grid"
-            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;">
-            <div class="product-card" *ngFor="let product of products"
-                style="background: white; padding: 32px; border-radius: 16px; text-align: center; border: 1px solid #E2E8F0; transition: all 0.3s; cursor: pointer;"
-                onmouseover="this.style.borderColor='var(--primary-blue)'; this.style.transform='translateY(-5px)'"
-                onmouseout="this.style.borderColor='#E2E8F0'; this.style.transform='none'">
-                <div style="font-size: 48px; margin-bottom: 16px;">{{ product.icon }}</div>
-                <h3 style="font-weight: 600; color: var(--text-main);">{{ product.title }}</h3>
-            </div>
-        </div>
-    </div>
-</section>
-} @placeholder {
-<section class="section" style="min-height: 300px"></section>
-}
 
 <!-- Contact Section -->
 @defer (on viewport) {

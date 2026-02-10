@@ -1,7 +1,7 @@
 {
     "name": "HAC Pharma",
     "short_name": "HAC Pharma",
-    "description": "Connecting global pharmaceutical innovation with local healthcare needs",
+    "description": "Connecting global medical innovation with local healthcare needs",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",

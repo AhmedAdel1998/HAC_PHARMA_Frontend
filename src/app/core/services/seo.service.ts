@@ -29,59 +29,59 @@ export class SeoService {
     // Default SEO configs for each route
     private readonly routeConfigs: Record<string, PageSeoConfig> = {
         '/': {
-            title: 'HAC Pharma | Pharmaceutical Distribution in Saudi Arabia & GCC',
-            description: 'Leading pharmaceutical distribution company in Saudi Arabia & GCC. SFDA compliant, regulatory affairs, and cold-chain logistics.',
-            keywords: 'pharmaceutical distribution, Saudi Arabia, GCC, SFDA, medicine, healthcare'
+            title: 'HAC Pharma | Medical Distribution in Saudi Arabia & GCC',
+            description: 'Leading medical distribution company in Saudi Arabia & GCC. SFDA compliant, regulatory affairs, and cold-chain logistics.',
+            keywords: 'medical distribution, Saudi Arabia, GCC, SFDA, medicine, healthcare'
         },
         '/about': {
             title: 'About Us | HAC Pharma',
-            description: 'Learn about HAC Pharma, a leading pharmaceutical distribution company headquartered in Riyadh with global reach.',
-            keywords: 'HAC Pharma about, pharmaceutical company, Riyadh, healthcare'
+            description: 'Learn about HAC Pharma, a leading medical distribution company headquartered in Riyadh with global reach.',
+            keywords: 'HAC Pharma about, medical company, Riyadh, healthcare'
         },
         '/services': {
             title: 'Our Services | HAC Pharma',
-            description: 'Regulatory affairs, logistics, market access, and medical affairs services for pharmaceutical companies.',
-            keywords: 'pharmaceutical services, regulatory affairs, SFDA registration, drug logistics'
+            description: 'Regulatory affairs, logistics, market access, and medical affairs services for medical companies.',
+            keywords: 'medical services, regulatory affairs, SFDA registration, drug logistics'
         },
         '/products': {
             title: 'Product Portfolio | HAC Pharma',
-            description: 'Explore our comprehensive range of pharmaceutical products across cardiology, oncology, neurology, and more.',
-            keywords: 'pharmaceutical products, medicine, drugs, cardiology, oncology, neurology'
+            description: 'Explore our comprehensive range of medical products across cardiology, oncology, neurology, and more.',
+            keywords: 'medical products, medicine, drugs, cardiology, oncology, neurology'
         },
         '/careers': {
             title: 'Careers | HAC Pharma',
-            description: 'Join our team at HAC Pharma. Explore job opportunities in pharmaceutical distribution and healthcare.',
-            keywords: 'pharmaceutical jobs, healthcare careers, Riyadh jobs, HAC Pharma careers'
+            description: 'Join our team at HAC Pharma. Explore job opportunities in medical distribution and healthcare.',
+            keywords: 'medical jobs, healthcare careers, Riyadh jobs, HAC Pharma careers'
         },
         '/contact': {
             title: 'Contact Us | HAC Pharma',
             description: 'Get in touch with HAC Pharma. Contact us for partnership opportunities, inquiries, or support.',
-            keywords: 'contact HAC Pharma, pharmaceutical partnership, healthcare inquiries'
+            keywords: 'contact HAC Pharma, medical partnership, healthcare inquiries'
         },
         '/news': {
             title: 'News & Updates | HAC Pharma',
             description: 'Latest news, announcements, and press releases from HAC Pharma.',
-            keywords: 'HAC Pharma news, pharmaceutical news, healthcare updates'
+            keywords: 'HAC Pharma news, medical news, healthcare updates'
         },
         '/blog': {
             title: 'Blog & Insights | HAC Pharma',
-            description: 'Industry insights, regulatory updates, and expert articles on pharmaceutical distribution.',
-            keywords: 'pharmaceutical blog, SFDA regulations, healthcare insights'
+            description: 'Industry insights, regulatory updates, and expert articles on medical distribution.',
+            keywords: 'medical blog, SFDA regulations, healthcare insights'
         },
         '/team': {
             title: 'Our Team | HAC Pharma',
             description: 'Meet the leadership team and experts driving innovation at HAC Pharma.',
-            keywords: 'HAC Pharma team, pharmaceutical leaders, healthcare experts'
+            keywords: 'HAC Pharma team, medical leaders, healthcare experts'
         },
         '/partners': {
             title: 'Our Partners | HAC Pharma',
-            description: 'Strategic partnerships with global pharmaceutical manufacturers and healthcare institutions.',
-            keywords: 'pharmaceutical partners, healthcare partnerships, drug manufacturers'
+            description: 'Strategic partnerships with global medical manufacturers and healthcare institutions.',
+            keywords: 'medical partners, healthcare partnerships, drug manufacturers'
         },
         '/faq': {
             title: 'FAQ | HAC Pharma',
-            description: 'Frequently asked questions about HAC Pharma services, partnerships, and pharmaceutical distribution.',
-            keywords: 'HAC Pharma FAQ, pharmaceutical questions, distribution inquiries'
+            description: 'Frequently asked questions about HAC Pharma services, partnerships, and medical distribution.',
+            keywords: 'HAC Pharma FAQ, medical questions, distribution inquiries'
         },
         '/privacy': {
             title: 'Privacy Policy | HAC Pharma',
