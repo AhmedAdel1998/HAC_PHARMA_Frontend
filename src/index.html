@@ -48,7 +48,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-  <link rel="manifest" href="manifest.json">
+  <!-- manifest removed: no service worker, standalone manifest causes aggressive mobile caching -->
 
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -102,12 +102,23 @@
         });
       });
     }
+    // Clear all Cache Storage to remove any PWA/service-worker caches
+    if ('caches' in window) {
+      caches.keys().then(function(names) {
+        names.forEach(function(name) { caches.delete(name); });
+      });
+    }
     // Handle Back-Forward Cache (bfcache): reload when page is restored from cache
     window.addEventListener('pageshow', function(event) {
       if (event.persisted) {
         window.location.reload();
       }
     });
+    // Clean up ?_v= cache-bust param from URL bar after reload
+    if (window.location.search.indexOf('_v=') > -1) {
+      var cleanUrl = window.location.pathname + window.location.hash;
+      window.history.replaceState(null, '', cleanUrl);
+    }
   </script>
 </body>
 
