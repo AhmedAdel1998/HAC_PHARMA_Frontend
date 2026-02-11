@@ -33,6 +33,8 @@ app.use(
   express.static(browserDistFolder, {
     index: false,
     redirect: false,
+    etag: false,
+    lastModified: false,
     setHeaders(res, filePath) {
       // Fingerprinted files contain a hash like chunk-XXXX.js or styles-XXXX.css
       if (/\.[a-f0-9]{8,}\.\w+$/i.test(filePath)) {
@@ -42,6 +44,7 @@ app.use(
         res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         res.setHeader('Pragma', 'no-cache');
         res.setHeader('Expires', '0');
+        res.setHeader('Surrogate-Control', 'no-store');
       }
     },
   }),
@@ -59,6 +62,7 @@ app.use((req, res, next) => {
         res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
         res.setHeader('Pragma', 'no-cache');
         res.setHeader('Expires', '0');
+        res.setHeader('Surrogate-Control', 'no-store');
         writeResponseToNodeResponse(response, res);
       } else {
         next();
